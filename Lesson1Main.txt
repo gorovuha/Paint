@@ -1,0 +1,175 @@
+import java.util.Scanner;
+
+public class Lesson1Main {
+
+    public static void main(String[] args) {
+
+        /*
+        //ex.2
+        int a = 239;
+        double b = 23.9;
+        String c = "some text";
+        //System.out.println(a);
+        int F0 = 0;
+        int F1 = 1;
+        int F2 = F1 + F0;
+        int F3 = F2 + F1;
+               int F4 = F2 + F3;
+        System.out.println("Третье чило Фибоначчи = " + F3 + ", Четвёртое число Фибоначчи = " + F4 + "!");
+        */
+
+        Scanner scanner = new Scanner (System.in);
+
+        /*int a = 239;
+        System.out.println ("Старое число a=" + a);
+        System.out.println ("Новое число а: ");
+
+        a = scanner.nextInt ();
+
+        System.out.println ("Р’РІРµРґС‘РЅРЅРѕРµ С‡РёСЃР»Рѕ Р°=" + a);
+        */
+
+        /*
+        //ex. 3
+        System.out.println ("Введите число а=");
+        int a = scanner.nextInt();
+        System.out.println ("Введите число b");
+        int b = scanner.nextInt();
+        System.out.println ("Введите число c");
+        int c = scanner.nextInt();
+
+        int sum = a+b+c;
+        System.out.println ("Сумма трёх чисел = " + sum);
+        */
+
+        /*
+        //ex.4
+        boolean b = true;
+        System.out.println(b);
+        b = false;
+        System.out.println(b);
+        */
+
+        /*
+        //ex.5
+        boolean b = true;
+        if (b) {
+            System.out.println("Переменная b == правда");
+        } else {
+            System.out.println("Переменная b == ложь");
+        }
+        System.out.println("Конец программы");
+        */
+
+        /*
+        //ex.6
+        System.out.println("Введите число");
+        int a = scanner.nextInt();
+        if ((a>=10000) && (a<=99999)) {
+            if (a % 2 == 0) {
+                System.out.println((a - a % 10) % 100 /10);
+            } else {
+                System.out.println((a- a % 100) %1000 /100);
+            }
+        } else {
+            if (a < 10000) {
+                System.out.println("Число слишком маленькое!");
+            } else {
+                System.out.println("Число слишком большое!");
+            }
+        }
+        */
+
+        //ex.7
+        System.out.println("Введите целое чило");
+        int a = scanner.nextInt();
+        if ((a >= 0) && (a <= 99)) {
+            if (a >= 20) {
+                if ((a - a % 10) % 100 /10 == 2) {
+                    System.out.print("Двадцать ");
+                }
+                if ((a - a % 10) % 100 /10 == 3) {
+                    System.out.print("Тридцать ");
+                }
+                if ((a - a % 10) % 100 /10 == 4) {
+                    System.out.print("Сорок ");
+                }
+                if ((a - a % 10) % 100 /10 == 5) {
+                    System.out.print("Пятьдесят ");
+                }
+                if ((a - a % 10) % 100 /10 == 6) {
+                    System.out.print("Шестьдесят ");
+                }
+                if ((a - a % 10) % 100 /10 == 7) {
+                    System.out.print("Семьдесят ");
+                }
+                if ((a - a % 10) % 100 /10 == 8) {
+                    System.out.print("Восемьдесят ");
+                }
+                if ((a - a % 10) % 100 /10 == 9) {
+                    System.out.print("Девяносто ");
+                }
+            }
+            if ((a < 10) || (a > 20)) {
+                if (a % 10 == 1) {
+                    System.out.println("Один");
+                }
+                if (a % 10 == 2) {
+                    System.out.println("Два");
+                }
+                if (a % 10 == 3) {
+                    System.out.println("Три");
+                }
+                if (a % 10 == 4) {
+                    System.out.println("Четыре");
+                }
+                if (a % 10 == 5) {
+                    System.out.println("Пять");
+                }
+                if (a % 10 == 6) {
+                    System.out.println("Шесть");
+                }
+                if (a % 10 == 7) {
+                    System.out.println("Семь");
+                }
+                if (a % 10 == 8) {
+                    System.out.println("Восемь");
+                }
+                if (a % 10 == 9) {
+                    System.out.println("Девять");
+                }
+            }
+            if (a == 10) {
+                System.out.println("Десять");
+            }
+            if (a == 11) {
+                System.out.println("Одиннадцать");
+            }
+            if (a == 12) {
+                System.out.println("Двенадцать");
+            }
+            if (a == 13) {
+                System.out.println("Тринадцать");
+            }
+            if (a == 14) {
+                System.out.println("Четырнадцать");
+            }
+            if (a == 15) {
+                System.out.println("Пятнадцать");
+            }
+            if (a == 16) {
+                System.out.println("Шестнадцать");
+            }
+            if (a == 17) {
+                System.out.println("Семнадцать");
+            }
+            if (a == 18) {
+                System.out.println("Восемнадцать");
+            }
+            if (a == 19) {
+                System.out.println("Девятнадцать");
+            }
+
+        }
+    }
+}
